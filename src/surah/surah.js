@@ -21,7 +21,7 @@ async function data() {
   for(let i = 0; i < data.ayat.length; i++){
   surah += `
   <div class="col">
-    <div>${data.ayat[i].nomor}</div>
+    <div>${data.ayat[i].nomor}.</div>
     <div class="ar">${data.ayat[i].ar}</div>
     <div>${data.ayat[i].tr}</div>
     <div>${data.ayat[i].idn}</div>
