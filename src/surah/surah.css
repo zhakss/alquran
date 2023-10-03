@@ -4,6 +4,17 @@
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
+.nav {
+  display: flex;
+  background-color: #333;
+  padding: 20px;
+}
+.nav-brand {
+  flex: 1;
+  color: #fff;
+  font-weight: 450;
+  font-size: 18px;
+}
 .col {
   background-color: #f0f0f0;
   padding: 20px;
