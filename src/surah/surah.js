@@ -23,7 +23,7 @@ async function data() {
   <div class="col">
     <div>${data.ayat[i].nomor}.</div>
     <div class="ar">${data.ayat[i].ar}</div>
-    <div class="tr">${data.ayat[i].tr}</div>
+    <b class="tr">${data.ayat[i].tr}</b>
     <div class="id">${data.ayat[i].idn}</div>
   </div>
   `;
@@ -31,7 +31,7 @@ async function data() {
   title += `
   <div class="col">
     <div class="title">${data.nomor}. ${data.nama}</div>
-    <div class="tr">${data.nama_latin}</div>
+    <b class="tr">${data.nama_latin}</b>
     <div class="id">${data.arti}</div>
   </div>
   `;
