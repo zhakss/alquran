@@ -23,16 +23,16 @@ async function data() {
   <div class="col">
     <div>${data.ayat[i].nomor}.</div>
     <div class="ar">${data.ayat[i].ar}</div>
-    <div>${data.ayat[i].tr}</div>
-    <div>${data.ayat[i].idn}</div>
+    <div class="tr">${data.ayat[i].tr}</div>
+    <div class="id">${data.ayat[i].idn}</div>
   </div>
   `;
   };
   title += `
   <div class="col">
     <div class="title">${data.nomor}. ${data.nama}</div>
-    <div>${data.nama_latin}</div>
-    <div>${data.arti}</div>
+    <div class="tr">${data.nama_latin}</div>
+    <div class="id">${data.arti}</div>
   </div>
   `;
   main.innerHTML = surah;
