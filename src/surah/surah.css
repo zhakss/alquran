@@ -16,6 +16,10 @@
   font-weight: 450;
   font-size: 18px;
 }
+.close {
+  text-decoration: none;
+  color: #fff;
+}
 .col {
   background-color: #f0f0f0;
   padding: 20px;
