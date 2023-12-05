@@ -34,9 +34,6 @@
   display: flex;
   justify-content: flex-end;
 }
-.col .tr {
-  font-weight: bold;
-}
 .col .id {
   opacity: 50%;
 }
